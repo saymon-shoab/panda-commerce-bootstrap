@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"> <img src="images/logo.png" alt=""> </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,13 +17,13 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                  <li class="nav-item">
+                  <li class="nav-item d-flex">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  
-                    <a class="nav-link" href="#">Bages</a>
+                    <a class="nav-link" href="#shoeid">shoes</a>
+                    <a class="nav-link" href="#Bagid">Bages</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">subscribe</a>
+                    <a class="nav-link " href="#subscribeid" tabindex="-1" aria-disabled="true">subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -105,10 +105,34 @@
                 </a>
               </div>
           </section>
+
+
+<section class="container" id="ceo">
+    <div class="row">
+      <div style="text-align: center;" class="col-lg-7 col-10">
+        <h1 style="color: #f09e4d;">ABOUT C.E.O.</h1>
+        <h2 style="color: #4b54c5;">SAYMON SHOAB</h2>
+        <p  style="color: #585858;">Lorem ipsum dolor, sit amet consectetur adipisicing 
+         elit. Beatae commodi doloribus vel, ullam blanditiis
+         qui vero rerum assumenda veniam velit voluptatibus!
+         Vel et iste quia iusto culpa asperiores minima atque?</p>
+      </div>
+
+      <div class="col-lg-5 col-10">
+        <img style="width: 350px;" src="images/shoab.png" alt="">
+      </div>
+     
+    </div>
+</section>
+
+
+
+
+
     </header>
     <main class="container">
         <section class=" overflow-hidden mt-5 text-white">
-            <div class="row gx-5">
+            <div class="row g-5">
               <div class="col">
                <div class="p-3 rounded bg-warning d-flex align-items-center justify-content-around">
                 <h1> watch</h1>
@@ -179,7 +203,7 @@
     </section>
 
 
-    <section class="mt-5">
+    <section class="mt-5" id="Bagid">
         <h2>Bagpag</h2>
     <div class=" row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -224,7 +248,7 @@
     </div>
 </section>
 
-<section style="height: 300px; background: #ffd0d8;" class="m-5 d-flex justify-content-center align-items-center">
+<section style="height: 300px; background: #ffd0d8;" class="m-5 d-flex justify-content-center align-items-center" id="subscribeid">
     <div>
     <h1>Stay With us and do subscribe</h1>
     <h4>get update on sels, offer and more information</h4>
